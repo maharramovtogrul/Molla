@@ -1,0 +1,152 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: rgb(187, 187, 187);
+    
+    .molla{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+
+        img{
+            width: 120px;
+        }
+    }
+  
+    .righticons{
+        display: flex;
+        text-align: center;
+        position: relative;
+        z-index: +1;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .person:hover, .heart:hover, .cart:hover{
+           a{
+            color: yellowgreen;
+           }
+        }
+        
+        div{
+            margin-left: 10px;
+        }
+        
+        .zero{
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 35px;
+            left: 110px;
+            
+            p{
+                width: 20px;
+                border-radius: 50%;
+                background-color: green;
+                color: white;
+                font-size: small;
+                text-align: center;
+            
+            }
+
+
+        }
+
+        .zero1{
+
+            position: absolute;
+            bottom: 35px;
+            left: 170px;
+            top: 0;
+            right: 0;
+       
+            p{
+                width: 20px;
+                border-radius: 50%;
+                background-color: green;
+                color: white;
+                font-size: small;
+                text-align: center;
+            
+            }
+
+
+        }
+        .person, .heart, .cart{
+                p{
+                   color: black;
+                }
+        }
+          
+    }
+
+    
+   .input{
+        #input{
+            position: relative;
+            width: 600px;
+            border: 1px solid rgb(187, 187, 187);
+            padding: 5px;
+        }
+        .input:hover{
+           border-color:rgb(187, 187, 187);
+        }
+
+        svg{
+            position: absolute;
+            right: 360px;
+            margin-top: 10px;
+            color: rgba(104, 104, 104, 0.63);
+        }
+   }
+
+}
+
+.navbar{
+     
+        .container{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-sizing: border-box;
+            border-bottom: none;
+        }
+
+    .burger{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .navmenu{
+        display: flex;
+        border-left: 1px solid;
+        border-right:  1px solid;
+        padding: 0 40px;
+        align-items: center;
+        
+        li{
+            list-style-type: none;
+            margin-left: 15px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    
+
+}

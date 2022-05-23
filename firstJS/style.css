@@ -1,0 +1,154 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: #bbbbbb;
+}
+
+.container .molla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.container .molla img {
+  width: 120px;
+}
+
+.container .righticons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  z-index: +1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .righticons a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .righticons .person:hover a, .container .righticons .heart:hover a, .container .righticons .cart:hover a {
+  color: yellowgreen;
+}
+
+.container .righticons div {
+  margin-left: 10px;
+}
+
+.container .righticons .zero {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 35px;
+  left: 110px;
+}
+
+.container .righticons .zero p {
+  width: 20px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.container .righticons .zero1 {
+  position: absolute;
+  bottom: 35px;
+  left: 170px;
+  top: 0;
+  right: 0;
+}
+
+.container .righticons .zero1 p {
+  width: 20px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.container .righticons .person p, .container .righticons .heart p, .container .righticons .cart p {
+  color: black;
+}
+
+.container .input #input {
+  position: relative;
+  width: 600px;
+  border: 1px solid #bbbbbb;
+  padding: 5px;
+}
+
+.container .input .input:hover {
+  border-color: #bbbbbb;
+}
+
+.container .input svg {
+  position: absolute;
+  right: 360px;
+  margin-top: 10px;
+  color: rgba(104, 104, 104, 0.63);
+}
+
+.navbar .container {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: none;
+}
+
+.navbar .burger a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .navmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 0 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navmenu li {
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.navbar .navmenu a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
